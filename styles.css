@@ -1,0 +1,52 @@
+body {
+	background-color: white;
+
+}
+h1 {
+	background:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.main_div {
+	width:1000px;
+	background-color: white;
+	margin: auto;
+}
+img {
+	width:200px;
+	height:200px;
+	padding :20px;
+}
+#main {
+	display: flex;
+	flex-wrap:wrap;
+}
+h3 {
+	text-transform: uppercase;
+	border-bottom: 2px solid rgb(105,184,143);
+	display: inline-block;
+}
+.wrapper {
+	text-align: center;
+	
+}
+.address {
+	line-height: 100%;
+	color:gray;
+	text-transform: capitalize;
+}
+.email {
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 14px;
+	color:gray;
+}
+.blur {
+	color: transparent;
+	 text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.blur:hover {
+	color:rgb(105,184,143);
+	text-shadow:none;
+}
